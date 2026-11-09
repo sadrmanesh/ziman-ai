@@ -1,6 +1,10 @@
 # Ziman AI
 
 <p align="center">
+  <img src="docs/assets/store/marquee-1400x560.png" width="100%" alt="Ziman AI: Kurdish translator for Chrome, Wergêra Kurdî, وەرگێڕی کوردی">
+</p>
+
+<p align="center">
   <img src="icons/icon128.png" width="96" height="96" alt="Ziman AI icon: two interlocking speech ribbons">
 </p>
 
@@ -75,9 +79,15 @@ Both shortcuts can be changed at `chrome://extensions/shortcuts`. The result is 
 
 ## Screenshots
 
-| Toolbar popup | Offline phrasebook | Settings |
+| Toolbar popup | Offline phrasebook | Result card on a page |
 |:--:|:--:|:--:|
-| <img src="docs/assets/screenshots/popup.png" width="280" alt="Ziman AI popup with a Sorani phrase translated offline"> | <img src="docs/assets/screenshots/phrasebook.png" width="280" alt="Offline phrasebook browser in the Ziman AI popup"> | <img src="docs/assets/screenshots/options.png" width="280" alt="Ziman AI settings and About section"> |
+| <img src="docs/assets/store/01-popup.png" width="280" alt="Ziman AI popup translating a Sorani phrase offline"> | <img src="docs/assets/store/02-phrasebook.png" width="280" alt="Offline phrasebook in the Ziman AI popup"> | <img src="docs/assets/store/03-result-card.png" width="280" alt="Small result card beside selected Sorani text"> |
+
+| Settings | About |
+|:--:|:--:|
+| <img src="docs/assets/store/04-settings.png" width="280" alt="Ziman AI settings"> | <img src="docs/assets/store/05-about.png" width="280" alt="Ziman AI About section"> |
+
+Promo tiles: [small 440×280](docs/assets/store/promo-440x280.png) · [marquee 1400×560](docs/assets/store/marquee-1400x560.png)
 
 ## Privacy
 
@@ -112,6 +122,34 @@ mkdocs build --strict
 ## License
 
 [MIT](LICENSE). Copyright (c) 2025 Naser Sadrmanesh.
+
+## کوردی سۆرانی
+
+<div dir="rtl">
+
+زمان، وەرگێڕی کوردی بۆ گووگڵ کرۆم: وەرگێڕان لە کوردیی سۆرانی و کرمانجی بۆ ئینگلیزی، فارسی و عەرەبی و بە پێچەوانەوە.
+
+- **فەرهەنگی کوردیی ئۆفلاین:** ١٠٥ دەستەواژەی ڕۆژانە بە سۆرانی، کرمانجی، ئینگلیزی، فارسی و عەرەبی، لە نۆ بەشدا.
+- **گەڕانی زیرەک:** جیاوازیی پیتە عەرەبی و فارسی و کوردییەکان دەناسێتەوە و «مەبەستت ئەمە بوو؟» پێشنیار دەکات.
+- **وەرگێڕانی زیرەکی دەستکرد** بۆ هەر ڕستەیەک بە کلیلی AIMLی خۆت. کلیلەکە تەنها لەم وێبگەڕەدا دەمێنێتەوە.
+- **هەرگیز خۆی ناکرێتەوە:** کرتەی ڕاست لەسەر دەقی هەڵبژێردراو و هەڵبژاردنی **Translate with Ziman**، یان `Alt+Shift+Z`. `Alt+Shift+X` زمانی مەبەست دەگۆڕێت.
+- **بێ چاودێری، بێ ڕیکلام.**
+
+پەڕەی بەرهەم: [sadrmanesh.github.io/ziman-ai/ku/](https://sadrmanesh.github.io/ziman-ai/ku/) · گەشەپێدەر: [ناصر صدرمنش](https://sadrmanesh.github.io/)
+
+</div>
+
+## Kurdî Kurmancî
+
+Ziman, wergêra Kurdî ji bo Google Chrome: ji Kurmancî û Soranî bo Îngilîzî, Farisî û Erebî, û berevajî.
+
+- **Ferhenga Kurdî ya offline:** 105 hevokên rojane bi Kurmancî, Soranî, Îngilîzî, Farisî û Erebî, di neh beşan de.
+- **Lêgerîna jîr:** cudahiya tîpên Erebî, Farisî û Kurdî nas dike û “Mebesta te ev bû?” pêşniyar dike.
+- **Wergera bi zekaya çêkirî** ji bo her hevokê, bi mifteya xwe ya AIML. Mifte tenê di vê gerokê de dimîne.
+- **Qet bi serê xwe venabe:** klîka rastê li ser nivîsa hilbijartî û **Translate with Ziman**, an `Alt+Shift+Z`. `Alt+Shift+X` zimanê armanc diguherîne.
+- **Bê şopandin, bê reklam.**
+
+Rûpela berhemê: [sadrmanesh.github.io/ziman-ai/kmr/](https://sadrmanesh.github.io/ziman-ai/kmr/) · Pêşdebir: [Naser Sadrmanesh](https://sadrmanesh.github.io/)
 
 ## فارسی
 

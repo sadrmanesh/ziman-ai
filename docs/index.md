@@ -5,7 +5,7 @@ hide:
 
 # Ziman AI
 
-<img class="hero-logo" src="assets/logo.png" alt="Ziman AI: two interlocking speech ribbons" width="96" height="96">
+![Ziman AI: Kurdish translator for Chrome, Wergêra Kurdî, وەرگێڕی کوردی](assets/store/marquee-1400x560.png){ .hero-banner }
 
 A Kurdish (Sorani and Kurmanji) and multilingual translator for Google Chrome. Common phrases are answered from an offline phrasebook on this device. Other sentences use your own [AIML API](https://aimlapi.com/) key. The extension does not include a key, and it does not open when you merely click or select text.
 
@@ -27,13 +27,21 @@ A Kurdish (Sorani and Kurmanji) and multilingual translator for Google Chrome. C
 
 <div class="grid screenshot-grid" markdown>
 
-![Ziman AI popup translating a Sorani greeting from the offline phrasebook](assets/screenshots/popup.png)
+![Ziman AI popup translating a Sorani greeting from the offline phrasebook](assets/store/01-popup.png)
 
-![Offline phrasebook browser inside the popup](assets/screenshots/phrasebook.png)
+![Offline phrasebook browser inside the popup](assets/store/02-phrasebook.png)
 
-![A small result card on a page, translating a selected Sorani greeting](assets/screenshots/result-card.png)
+![A small result card on a page, translating a selected Sorani greeting](assets/store/03-result-card.png)
+
+![Ziman AI settings](assets/store/04-settings.png)
+
+![Ziman AI About section](assets/store/05-about.png)
+
+![Ziman AI small promo tile](assets/store/promo-440x280.png)
 
 </div>
+
+Languages: [کوردی سۆرانی](ku.md) · [Kurdî Kurmancî](kmr.md) · [فارسی](fa.md)
 
 ## Install
 
