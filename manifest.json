@@ -1,0 +1,59 @@
+{
+  "manifest_version": 3,
+  "name": "Ziman AI - Kurdish Translator & Multilingual Tool",
+  "version": "1.2.3",
+  "author": "Naser Sadrmanesh",
+  "description": "Translate Kurdish Sorani and Kurmanji plus major languages. Offline phrasebook, and AI translation with your own AIML API key.",
+  "homepage_url": "https://sadrmanesh.github.io/ziman-ai/",
+  "permissions": [
+    "activeTab",
+    "storage",
+    "contextMenus",
+    "scripting"
+  ],
+  "host_permissions": [
+    "https://api.aimlapi.com/*"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Ziman AI - Kurdish Translator",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "32": "icons/icon32.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "options_ui": {
+    "page": "options.html",
+    "open_in_tab": true
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "commands": {
+    "translate-selection": {
+      "suggested_key": {
+        "default": "Alt+Shift+Z",
+        "mac": "Alt+Shift+Z"
+      },
+      "description": "Translate the selection with Ziman"
+    },
+    "cycle-target": {
+      "suggested_key": {
+        "default": "Alt+Shift+X",
+        "mac": "Alt+Shift+X"
+      },
+      "description": "Cycle the Ziman target language"
+    }
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self'"
+  }
+}

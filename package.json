@@ -1,0 +1,33 @@
+{
+  "name": "ziman-ai",
+  "version": "1.2.3",
+  "description": "Kurdish Sorani and Kurmanji translator with an offline phrasebook and optional AIML translation",
+  "private": true,
+  "scripts": {
+    "lint": "node --check background.js && node --check popup.js && node --check options.js && node --check content.js && node --check aiml-api.js && node --check error-handler.js && node --check lib/phrasebook.js && node --check lib/phonetic.js && node --check lib/storage.js && node --check lib/translate-plan.js && node --check lib/translator.js && node --check lib/messages.js && node --check lib/triggers.js && node --check tools/preview-shim.js",
+    "test": "node --test tests/*.test.js",
+    "eval:phrasebook": "node scripts/eval-phrasebook.js",
+    "package": "bash scripts/pack.sh"
+  },
+  "keywords": [
+    "chrome-extension",
+    "kurdish",
+    "translator",
+    "sorani",
+    "kurmanji",
+    "multilingual"
+  ],
+  "author": "Naser Sadrmanesh",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sadrmanesh/ziman-ai.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sadrmanesh/ziman-ai/issues"
+  },
+  "homepage": "https://sadrmanesh.github.io/ziman-ai/",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

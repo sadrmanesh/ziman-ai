@@ -1,0 +1,30 @@
+@import url("https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-font-face.css");
+
+[dir="rtl"] {
+  font-family: Vazirmatn, sans-serif;
+  line-height: 1.9;
+}
+
+.md-typeset .grid.cards > ul > li {
+  border-radius: 0.6rem;
+}
+
+.md-header__button.md-logo img,
+.md-header__button.md-logo svg {
+  height: 1.7rem;
+  width: 1.7rem;
+  border-radius: 0.35rem;
+}
+
+.hero-logo {
+  display: block;
+  width: 96px;
+  height: 96px;
+  margin: 0 auto 1rem;
+  border-radius: 1rem;
+}
+
+.screenshot-grid img {
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 0.6rem;
+}

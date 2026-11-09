@@ -1,0 +1,110 @@
+#ziman-translation-widget {
+    position: fixed;
+    z-index: 2147483646;
+    width: min(320px, calc(100vw - 16px));
+    background: #ffffff;
+    color: #0f172a;
+    border: 1px solid #d9e2ec;
+    border-radius: 14px;
+    box-shadow: 0 12px 30px rgba(15, 23, 42, 0.16);
+    font-family: "Segoe UI", Tahoma, "Noto Naskh Arabic", sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.ziman-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+    padding: 8px 10px;
+    background: #0a1e26;
+    color: #ffffff;
+    border-radius: 14px 14px 0 0;
+}
+
+.ziman-close,
+.ziman-action {
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.ziman-close {
+    background: transparent;
+    color: #ffffff;
+    border: 1px solid transparent;
+    width: 32px;
+    height: 32px;
+    font-size: 20px;
+}
+
+.ziman-close:focus-visible,
+.ziman-action:focus-visible {
+    outline: 2px solid #f0d56c;
+    outline-offset: 2px;
+}
+
+.ziman-content { padding: 10px; }
+
+.ziman-original,
+.ziman-translation,
+.ziman-phonetic,
+.ziman-loading {
+    margin: 0 0 8px;
+    white-space: pre-wrap;
+    overflow-wrap: anywhere;
+}
+
+.ziman-original {
+    background: #f4f7fb;
+    border-radius: 8px;
+    padding: 8px;
+}
+
+.ziman-translation {
+    background: #e8f6ee;
+    color: #14532d;
+    border-radius: 8px;
+    padding: 8px;
+}
+
+.ziman-phonetic { color: #526075; font-size: 12px; }
+
+.ziman-targets, .ziman-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-top: 8px;
+}
+
+.ziman-target, .ziman-action {
+    cursor: pointer;
+    border: 1px solid #d3e0e2;
+    background: #ffffff;
+    color: #0a1e26;
+    border-radius: 999px;
+    min-height: 32px;
+    padding: 4px 8px;
+}
+
+.ziman-target.is-active {
+    background: #0e474f;
+    color: #ffffff;
+    border-color: transparent;
+}
+
+@media (prefers-color-scheme: dark) {
+    #ziman-translation-widget {
+        background: #121a2b;
+        color: #e8edf5;
+        border-color: #243044;
+    }
+
+    .ziman-original { background: #0b1220; color: #e8edf5; }
+    .ziman-translation { background: #123524; color: #bbf7d0; }
+    .ziman-phonetic { color: #a8b3c7; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    #ziman-translation-widget { animation: none; }
+}

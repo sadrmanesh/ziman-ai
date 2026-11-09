@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ziman AI settings</title>
+    <link rel="stylesheet" href="theme.css">
+</head>
+<body class="page">
+    <a class="visually-hidden" href="#settings">Skip to settings</a>
+    <main class="app" id="settings">
+        <header class="top">
+            <img class="logo" src="icons/icon128.png" alt="" width="44" height="44">
+            <div>
+                <h1>Ziman AI</h1>
+                <p id="tagline"></p>
+            </div>
+        </header>
+
+        <section class="panel stack">
+            <h2 id="defaultsHeading"></h2>
+            <div class="grid">
+                <div class="field">
+                    <label id="uiLabel" for="uiLang"></label>
+                    <select id="uiLang">
+                        <option value="ku">کوردی</option>
+                        <option value="fa">فارسی</option>
+                        <option value="en">English</option>
+                    </select>
+                </div>
+                <div class="field">
+                    <label id="toneLabel" for="tone"></label>
+                    <select id="tone">
+                        <option value="neutral"></option>
+                        <option value="formal"></option>
+                        <option value="informal"></option>
+                    </select>
+                </div>
+                <div class="field">
+                    <label id="modelLabel" for="model"></label>
+                    <select id="model"></select>
+                </div>
+            </div>
+            <p class="note" id="modelNote"></p>
+            <div class="grid">
+                <div class="field">
+                    <label id="defaultTargetLabel" for="defaultTarget"></label>
+                    <select id="defaultTarget">
+                        <option value="ku-sorani">Kurdish (Sorani)</option>
+                        <option value="ku-kurmanji">Kurdish (Kurmanji)</option>
+                        <option value="en">English</option>
+                        <option value="fa">Persian</option>
+                        <option value="ar">Arabic</option>
+                    </select>
+                </div>
+                <div class="field">
+                    <label id="resultModeLabel" for="resultMode"></label>
+                    <select id="resultMode">
+                        <option value="card">card</option>
+                        <option value="popup">popup</option>
+                    </select>
+                </div>
+            </div>
+            <p class="note" id="shortcutNote"></p>
+            <button type="button" id="openShortcuts" class="text-btn"></button>
+        </section>
+
+        <section class="panel stack">
+            <h2 id="keyHeading"></h2>
+            <p class="note" id="keyNote"></p>
+            <label id="keyLabel" for="apiKey"></label>
+            <input id="apiKey" type="password" autocomplete="off" spellcheck="false">
+            <div class="actions">
+                <button type="button" id="saveKey" class="primary"></button>
+                <button type="button" id="testKey" class="text-btn"></button>
+                <button type="button" id="clearKey" class="text-btn"></button>
+            </div>
+            <p id="keyStatus" class="note" role="status"></p>
+        </section>
+
+        <section class="panel owner-card">
+            <img class="photo" src="assets/owner-photo.jpg" alt="">
+            <div>
+                <h2 id="aboutHeading"></h2>
+                <p class="note" id="aboutText"></p>
+                <p>
+                    <a href="https://sadrmanesh.github.io/" target="_blank" rel="noopener noreferrer" id="siteLink"></a>
+                    ·
+                    <a href="https://sadrmanesh.github.io/ziman-ai/" target="_blank" rel="noopener noreferrer" id="docsLink">Docs</a>
+                    ·
+                    <a href="https://github.com/sadrmanesh/ziman-ai" target="_blank" rel="noopener noreferrer">GitHub</a>
+                    ·
+                    <a href="https://www.linkedin.com/in/sadrmanesh" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                    ·
+                    <a href="https://x.com/nasersadrmanesh" target="_blank" rel="noopener noreferrer">X</a>
+                </p>
+                <p class="note" id="relatedHeading"></p>
+                <p id="relatedLinks">
+                    <a href="https://sadrmanesh.github.io/persian-rag/" target="_blank" rel="noopener noreferrer">persian-rag</a>
+                    ·
+                    <a href="https://sadrmanesh.github.io/chrome-dns-manager/" target="_blank" rel="noopener noreferrer">DNS Configuration Manager</a>
+                    ·
+                    <a href="https://hamejoo.github.io/hamejoo-chrome/" target="_blank" rel="noopener noreferrer">HameJoo</a>
+                </p>
+                <p class="note"><a id="privacyLink" href="PRIVACY.md"></a></p>
+            </div>
+        </section>
+    </main>
+    <script src="lib/messages.js"></script>
+    <script src="aiml-api.js"></script>
+    <script src="options.js"></script>
+</body>
+</html>

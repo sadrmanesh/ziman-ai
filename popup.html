@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ku">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ziman AI</title>
+    <link rel="stylesheet" href="theme.css">
+</head>
+<body>
+    <div class="app">
+        <header class="top">
+            <img class="logo" src="icons/icon128.png" alt="" width="44" height="44">
+            <div class="grow">
+                <h1>Ziman AI</h1>
+                <p id="tagline"></p>
+            </div>
+            <button type="button" id="uiLang" class="icon-btn">کوردی</button>
+            <button type="button" id="openSettings" class="icon-btn"></button>
+        </header>
+
+        <p id="previewNote" class="preview-note hidden"></p>
+        <p id="modeStatus" class="status-pill" role="status"></p>
+
+        <form id="translateForm">
+            <div class="lang-row">
+                <div class="field">
+                    <label id="fromLabel" for="sourceLang"></label>
+                    <select id="sourceLang"></select>
+                </div>
+                <button type="button" id="swapBtn" class="icon-btn"></button>
+                <div class="field">
+                    <label id="toLabel" for="targetLang"></label>
+                    <select id="targetLang"></select>
+                </div>
+            </div>
+            <label class="visually-hidden" id="sourceLabel" for="sourceText"></label>
+            <textarea id="sourceText" dir="auto" maxlength="4000" spellcheck="false"></textarea>
+            <div class="meta">
+                <label class="check"><input type="checkbox" id="phonetic"> <span id="phoneticLabel"></span></label>
+                <span id="charCount"></span>
+            </div>
+            <div class="actions">
+                <button type="button" id="clearBtn" class="text-btn"></button>
+                <button type="button" id="pasteBtn" class="text-btn"></button>
+                <button type="button" id="selectionBtn" class="text-btn"></button>
+            </div>
+            <p id="examplesLabel" class="note"></p>
+            <div id="examples" class="chips"></div>
+            <button type="submit" id="translateBtn" class="primary"></button>
+            <button type="button" id="openBook" class="text-btn"></button>
+        </form>
+        <section id="bookPanel" class="panel hidden">
+            <div class="actions">
+                <h2 id="bookHeading" class="grow"></h2>
+                <button type="button" id="closeBook" class="text-btn"></button>
+            </div>
+            <label class="visually-hidden" id="bookSearchLabel" for="bookSearch"></label>
+            <input id="bookSearch" type="text" autocomplete="off">
+            <label class="visually-hidden" id="bookCategoryLabel" for="bookCategory"></label>
+            <select id="bookCategory"></select>
+            <div id="bookList" class="book-list"></div>
+        </section>
+
+        <section class="panel" aria-live="polite">
+            <h2 id="resultHeading"></h2>
+            <p id="emptyState" class="state"></p>
+            <p id="loadingState" class="state hidden" role="status"></p>
+            <div id="errorState" class="state error hidden" role="alert"></div>
+            <p id="suggestLine" class="note hidden"></p>
+            <div id="resultState" class="hidden">
+                <p id="resultText" class="state ok" dir="auto"></p>
+                <p id="phoneticText" class="note hidden"></p>
+                <p id="providerNote" class="note"></p>
+                <div class="actions">
+                    <button type="button" id="copyBtn" class="text-btn"></button>
+                    <button type="button" id="speakBtn" class="text-btn"></button>
+                    <button type="button" id="favoriteBtn" class="text-btn"></button>
+                </div>
+            </div>
+        </section>
+
+        <section class="panel">
+            <div class="actions">
+                <h2 id="historyHeading" class="grow"></h2>
+                <button type="button" id="clearHistory" class="text-btn"></button>
+            </div>
+            <div id="history" class="history-list"></div>
+            <p id="historyEmpty" class="note"></p>
+            <h2 id="favoritesHeading"></h2>
+            <div id="favorites" class="history-list"></div>
+            <p id="favoritesEmpty" class="note"></p>
+            <button type="button" id="pageBtn" class="text-btn"></button>
+        </section>
+
+        <footer class="footer">
+            <span id="developerName"></span>
+            <a href="https://sadrmanesh.github.io/ziman-ai/" target="_blank" rel="noopener noreferrer">Docs</a>
+            <a href="https://github.com/sadrmanesh/ziman-ai" target="_blank" rel="noopener noreferrer">GitHub</a>
+            <a href="https://sadrmanesh.github.io/" target="_blank" rel="noopener noreferrer">Web</a>
+        </footer>
+    </div>
+    <script src="lib/messages.js"></script>
+    <script src="lib/phrasebook.js"></script>
+    <script src="lib/phonetic.js"></script>
+    <script src="lib/storage.js"></script>
+    <script src="lib/translate-plan.js"></script>
+    <script src="lib/translator.js"></script>
+    <script src="popup.js"></script>
+</body>
+</html>
