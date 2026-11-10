@@ -10,7 +10,11 @@ dir: rtl
 
 زمان بە کرتەکردن یان تەنها هەڵبژاردنی دەق نابێتەوە. وەرگێڕان بە ڕاست-کرتە لەسەر دەقی هەڵبژێردراو و هەڵبژاردنی **Translate with Ziman**، یان بە قەدبڕی `Alt+Shift+Z` دەکرێت. `Alt+Shift+X` زمانی مەبەست دەگۆڕێت.
 
+[لە Chrome Web Store دایبمەزرێنە](https://chromewebstore.google.com/detail/ziman-ai-kurdish-translat/cjmmnobnimheoeeojobgfkgbdbohcjkn){ .md-button .md-button--primary }
+
 ## دامەزراندن
+
+ئاسانترین ڕێگا [دامەزراندن لە Chrome Web Store](https://chromewebstore.google.com/detail/ziman-ai-kurdish-translat/cjmmnobnimheoeeojobgfkgbdbohcjkn)ە. بۆ وەگێڕانی ناوخۆیی لە سەرچاوە:
 
 ```bash
 git clone https://github.com/sadrmanesh/ziman-ai.git

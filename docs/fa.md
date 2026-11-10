@@ -8,7 +8,11 @@ dir: rtl
 
 زمان با کلیک یا فقط انتخاب متن باز نمی‌شود. ترجمه با راست‌کلیک روی متن انتخاب‌شده و گزینهٔ **Translate with Ziman**، یا با میانبر `Alt+Shift+Z` انجام می‌شود. `Alt+Shift+X` زبان مقصد را عوض می‌کند.
 
+[نصب از Chrome Web Store](https://chromewebstore.google.com/detail/ziman-ai-kurdish-translat/cjmmnobnimheoeeojobgfkgbdbohcjkn){ .md-button .md-button--primary }
+
 ## نصب
+
+ساده‌ترین راه [نصب از Chrome Web Store](https://chromewebstore.google.com/detail/ziman-ai-kurdish-translat/cjmmnobnimheoeeojobgfkgbdbohcjkn) است. برای بارگذاری یک نسخهٔ محلی از روی منبع:
 
 ```bash
 git clone https://github.com/sadrmanesh/ziman-ai.git

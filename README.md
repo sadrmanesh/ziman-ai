@@ -14,7 +14,9 @@
 </p>
 
 <p align="center">
-  <a href="https://sadrmanesh.github.io/ziman-ai/"><strong>Product page</strong></a>
+  <a href="https://chromewebstore.google.com/detail/ziman-ai-kurdish-translat/cjmmnobnimheoeeojobgfkgbdbohcjkn"><strong>Install from Chrome Web Store</strong></a>
+  ·
+  <a href="https://sadrmanesh.github.io/ziman-ai/">Product page</a>
   ·
   <a href="https://github.com/sadrmanesh/ziman-ai">Repository</a>
   ·
@@ -53,6 +55,10 @@ The product mark is two interlocking speech ribbons on a dark tile, in `icons/`.
 - It does not accept a raw OpenAI, Anthropic, or Google key unless AIML accepts that key on your account. This project only talks to `api.aimlapi.com`.
 - It does not replace every node on a page. Page translation is one capped excerpt.
 - It does not claim support for Firefox, Safari, or Edge.
+
+## Install
+
+[Install from Chrome Web Store](https://chromewebstore.google.com/detail/ziman-ai-kurdish-translat/cjmmnobnimheoeeojobgfkgbdbohcjkn)
 
 ## Install from source
 
@@ -135,7 +141,7 @@ mkdocs build --strict
 - **هەرگیز خۆی ناکرێتەوە:** کرتەی ڕاست لەسەر دەقی هەڵبژێردراو و هەڵبژاردنی **Translate with Ziman**، یان `Alt+Shift+Z`. `Alt+Shift+X` زمانی مەبەست دەگۆڕێت.
 - **بێ چاودێری، بێ ڕیکلام.**
 
-پەڕەی بەرهەم: [sadrmanesh.github.io/ziman-ai/ku/](https://sadrmanesh.github.io/ziman-ai/ku/) · گەشەپێدەر: [ناصر صدرمنش](https://sadrmanesh.github.io/)
+[لە Chrome Web Store دایبمەزرێنە](https://chromewebstore.google.com/detail/ziman-ai-kurdish-translat/cjmmnobnimheoeeojobgfkgbdbohcjkn) · پەڕەی بەرهەم: [sadrmanesh.github.io/ziman-ai/ku/](https://sadrmanesh.github.io/ziman-ai/ku/) · گەشەپێدەر: [ناصر صدرمنش](https://sadrmanesh.github.io/)
 
 </div>
 
@@ -149,10 +155,10 @@ Ziman, wergêra Kurdî ji bo Google Chrome: ji Kurmancî û Soranî bo Îngilîz
 - **Qet bi serê xwe venabe:** klîka rastê li ser nivîsa hilbijartî û **Translate with Ziman**, an `Alt+Shift+Z`. `Alt+Shift+X` zimanê armanc diguherîne.
 - **Bê şopandin, bê reklam.**
 
-Rûpela berhemê: [sadrmanesh.github.io/ziman-ai/kmr/](https://sadrmanesh.github.io/ziman-ai/kmr/) · Pêşdebir: [Naser Sadrmanesh](https://sadrmanesh.github.io/)
+[Ji Chrome Web Storeê saz bike](https://chromewebstore.google.com/detail/ziman-ai-kurdish-translat/cjmmnobnimheoeeojobgfkgbdbohcjkn) · Rûpela berhemê: [sadrmanesh.github.io/ziman-ai/kmr/](https://sadrmanesh.github.io/ziman-ai/kmr/) · Pêşdebir: [Naser Sadrmanesh](https://sadrmanesh.github.io/)
 
 ## فارسی
 
 زمان برای ترجمهٔ کردی سورانی و کرمانجی و چند زبان دیگر است. عبارت‌های آماده روی دستگاه ترجمه می‌شوند. برای جمله‌های دیگر کلید AIML خودتان لازم است. افزونه کلید همراه ندارد و با کلیک یا انتخاب متن به‌تنهایی باز نمی‌شود.
 
-توسعه‌دهنده: ناصر صدرمنش. وب‌سایت: https://sadrmanesh.github.io/ — مخزن: https://github.com/sadrmanesh/ziman-ai — صفحهٔ محصول: https://sadrmanesh.github.io/ziman-ai/
+[نصب از Chrome Web Store](https://chromewebstore.google.com/detail/ziman-ai-kurdish-translat/cjmmnobnimheoeeojobgfkgbdbohcjkn) — توسعه‌دهنده: ناصر صدرمنش. وب‌سایت: https://sadrmanesh.github.io/ — مخزن: https://github.com/sadrmanesh/ziman-ai — صفحهٔ محصول: https://sadrmanesh.github.io/ziman-ai/

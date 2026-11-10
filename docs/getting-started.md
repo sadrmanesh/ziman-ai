@@ -2,6 +2,8 @@
 
 Ziman AI is a Manifest V3 extension for Google Chrome on desktop. Version 1.2.3.
 
+The supported way to install it is from the [Chrome Web Store](https://chromewebstore.google.com/detail/ziman-ai-kurdish-translat/cjmmnobnimheoeeojobgfkgbdbohcjkn).
+
 ## Install from source
 
 ```bash

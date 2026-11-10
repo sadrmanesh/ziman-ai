@@ -6,7 +6,11 @@ Ziman pêvekeke Chrome ye ji bo wergerandina Kurdî ya Kurmancî û Soranî bo �
 
 Ziman bi klîkekê an tenê bi hilbijartina nivîsê venabe. Wergerandin bi klîka rastê li ser nivîsa hilbijartî û **Translate with Ziman**, an bi `Alt+Shift+Z` dibe. `Alt+Shift+X` zimanê armanc diguherîne.
 
+[Ji Chrome Web Storeê saz bike](https://chromewebstore.google.com/detail/ziman-ai-kurdish-translat/cjmmnobnimheoeeojobgfkgbdbohcjkn){ .md-button .md-button--primary }
+
 ## Sazkirin
+
+Rêya herî hêsan [sazkirin ji Chrome Web Store](https://chromewebstore.google.com/detail/ziman-ai-kurdish-translat/cjmmnobnimheoeeojobgfkgbdbohcjkn) e. Ji bo kopiyeke herêmî ji çavkaniyê:
 
 ```bash
 git clone https://github.com/sadrmanesh/ziman-ai.git

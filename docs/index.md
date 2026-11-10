@@ -9,8 +9,8 @@ hide:
 
 A Kurdish (Sorani and Kurmanji) and multilingual translator for Google Chrome. Common phrases are answered from an offline phrasebook on this device. Other sentences use your own [AIML API](https://aimlapi.com/) key. The extension does not include a key, and it does not open when you merely click or select text.
 
-[Get started](getting-started.md){ .md-button .md-button--primary }
-[Offline phrasebook](phrasebook.md){ .md-button }
+[Install from Chrome Web Store](https://chromewebstore.google.com/detail/ziman-ai-kurdish-translat/cjmmnobnimheoeeojobgfkgbdbohcjkn){ .md-button .md-button--primary }
+[Get started](getting-started.md){ .md-button }
 [GitHub](https://github.com/sadrmanesh/ziman-ai){ .md-button }
 
 ## Highlights
@@ -45,11 +45,9 @@ Languages: [کوردی سۆرانی](ku.md) · [Kurdî Kurmancî](kmr.md) · [ف
 
 ## Install
 
-1. Clone [sadrmanesh/ziman-ai](https://github.com/sadrmanesh/ziman-ai) or download a release zip.
-2. Open `chrome://extensions/`, turn on Developer mode, and choose **Load unpacked**.
-3. Select the folder that contains `manifest.json`.
+[Install from Chrome Web Store](https://chromewebstore.google.com/detail/ziman-ai-kurdish-translat/cjmmnobnimheoeeojobgfkgbdbohcjkn){ .md-button .md-button--primary }
 
-A Chrome Web Store listing is planned after this source release. Until then, load the extension from source as above. Full steps are in [Getting started](getting-started.md).
+To work on a local copy, clone [sadrmanesh/ziman-ai](https://github.com/sadrmanesh/ziman-ai) or download a release zip, open `chrome://extensions/`, turn on Developer mode, and choose **Load unpacked**. Select the folder that contains `manifest.json`. Full steps are in [Getting started](getting-started.md).
 
 ## Explore
 

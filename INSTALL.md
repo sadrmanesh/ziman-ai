@@ -4,6 +4,10 @@
 
 This package is for Google Chrome on desktop.
 
+## Chrome Web Store
+
+[Install from Chrome Web Store](https://chromewebstore.google.com/detail/ziman-ai-kurdish-translat/cjmmnobnimheoeeojobgfkgbdbohcjkn)
+
 ## From source
 
 1. Clone https://github.com/sadrmanesh/ziman-ai or use a local copy of this folder.
@@ -32,6 +36,8 @@ The extension does not open when you only click or select text.
 More detail: [README.md](README.md) and the [product page](https://sadrmanesh.github.io/ziman-ai/).
 
 ## فارسی
+
+از [Chrome Web Store](https://chromewebstore.google.com/detail/ziman-ai-kurdish-translat/cjmmnobnimheoeeojobgfkgbdbohcjkn) نصب کنید. برای بارگذاری از روی منبع:
 
 1. پوشهٔ حاوی `manifest.json` را در `chrome://extensions/` با **Load unpacked** بارگذاری کنید.
 2. «سڵاو» را در افزونه به انگلیسی ترجمه کنید؛ این پاسخ از واژه‌نامهٔ آفلاین است.
